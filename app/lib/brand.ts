@@ -4,7 +4,7 @@
 
 export const BRAND = 'AI Benefits Auto Hub';
 export const DOMAIN = 'aibenefitsautohub.com';
-export const LEGAL_NAME = 'Benefits AI LLC';
+export const LEGAL_NAME = 'Benefits Agent AI LLC';
 
 export const ADDRESS_LINE1 = '3 Germay Dr';
 export const ADDRESS_LINE2 = 'Wilmington, DE 19804, United States';
@@ -36,10 +36,10 @@ export const NO_MOBILE_SHARING_SHORT =
 export const FREQUENCY_LINE = 'Account notifications vary; promotional up to 4 msgs/month.';
 
 export const ACCOUNT_CONSENT_TEXT =
-  'By checking this box, I agree to receive recurring account text messages from AI Benefits Auto Hub (Benefits AI LLC) at the number provided, including enrollment confirmations, benefits deadline reminders and verification codes. Message frequency varies. Message and data rates may apply. Reply HELP for help, STOP to opt out. Consent is not a condition of employment or of receiving benefits. Messages are sent from a toll-free number. See our SMS Terms and Privacy Policy.';
+  `By checking this box, I agree to receive recurring account text messages from AI Benefits Auto Hub (${LEGAL_NAME}) at the number provided, including enrollment confirmations, benefits deadline reminders and verification codes. Message frequency varies. Message and data rates may apply. Reply HELP for help, STOP to opt out. Consent is not a condition of employment or of receiving benefits. Messages are sent from a toll-free number. See our SMS Terms and Privacy Policy.`;
 
 export const PROMOTIONAL_CONSENT_TEXT =
-  'By checking this box, I agree to receive recurring promotional text messages from AI Benefits Auto Hub (Benefits AI LLC) at the number provided about new or updated benefits offered by my employer and plan guide features. Up to 4 msgs/month. Message and data rates may apply. Reply HELP for help, STOP to opt out. Consent is not a condition of employment or of receiving benefits. See our SMS Terms and Privacy Policy.';
+  `By checking this box, I agree to receive recurring promotional text messages from AI Benefits Auto Hub (${LEGAL_NAME}) at the number provided about new or updated benefits offered by my employer and plan guide features. Up to 4 msgs/month. Message and data rates may apply. Reply HELP for help, STOP to opt out. Consent is not a condition of employment or of receiving benefits. See our SMS Terms and Privacy Policy.`;
 
 export const TERMS_CONSENT_TEXT = 'I agree to the Terms of Service and Privacy Policy.';
 

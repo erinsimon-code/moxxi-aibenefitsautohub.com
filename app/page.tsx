@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import { BRAND, TAGLINE, POSITIONING_STATEMENT, REQUIRED_STATEMENT, SAMPLE_MESSAGES, FREQUENCY_LINE } from './lib/brand';
+import { BRAND, TAGLINE, POSITIONING_STATEMENT, REQUIRED_STATEMENT, SAMPLE_MESSAGES, FREQUENCY_LINE, LEGAL_NAME } from './lib/brand';
 
 const HOW_IT_WORKS = [
   { num: '1', title: 'Your employer joins and gives you a company ID', desc: 'Participating dealerships, collision centers, parts distributors and manufacturers enroll in the program and issue a company ID to their employees.' },
@@ -85,7 +85,7 @@ export default function HomePage() {
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--color-deep-orange)' }}>What it is</p>
                 <p className="text-sm leading-relaxed" style={{ color: 'var(--color-slate)' }}>
-                  {BRAND} is an employer-sponsored benefits program for automotive industry employees, operated by Benefits AI LLC.
+                  {BRAND} is an employer-sponsored benefits program for automotive industry employees, operated by {LEGAL_NAME}.
                 </p>
               </div>
               <div>
